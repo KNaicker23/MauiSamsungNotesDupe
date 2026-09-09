@@ -1,0 +1,12 @@
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MauiSamsungNotesDupe.csproj.AssemblyReference.cache
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauiimage.inputs
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauifont.inputs
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauisplash.inputs
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauimanifest.stamp
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Platforms\Windows\App.g.i.cs
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Platforms\Windows\App.g.cs
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\XamlTypeInfo.g.cs
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Platforms\Windows\App.xaml
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\Platforms\Windows\App.xbf
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\XamlSaveStateFile.xml
+C:\learningnet_home\MauiSamsungNotesDupeSln\MauiSamsungNotesDupe\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MauiSamsungNotesDupe.GeneratedMSBuildEditorConfig.editorconfig
