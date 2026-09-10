@@ -1,0 +1,15 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc64fa14f486af15cf71" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiAppCompatActivity" partial_assembly_qualified_name="MauiSamsungNotesDupe.MainActivity, MauiSamsungNotesDupe">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc64fa14f486af15cf71" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiApplication" is_application="True" partial_assembly_qualified_name="MauiSamsungNotesDupe.MainApplication, MauiSamsungNotesDupe" application_constructor="MainApplication" />
+  </jcw-types>
+  <acw-types partial-assembly-name="MauiSamsungNotesDupe" module-name="MauiSamsungNotesDupe.dll">
+    <type assembly-qualified-name="MauiSamsungNotesDupe.MainActivity, MauiSamsungNotesDupe, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mauisamsungnotesdupe.MainActivity" java-key="crc64fa14f486af15cf71.MainActivity" managed-key="MauiSamsungNotesDupe.MainActivity" partial-assembly-qualified-name="MauiSamsungNotesDupe.MainActivity, MauiSamsungNotesDupe" />
+    <type assembly-qualified-name="MauiSamsungNotesDupe.MainApplication, MauiSamsungNotesDupe, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mauisamsungnotesdupe.MainApplication" java-key="crc64fa14f486af15cf71.MainApplication" managed-key="MauiSamsungNotesDupe.MainApplication" partial-assembly-qualified-name="MauiSamsungNotesDupe.MainApplication, MauiSamsungNotesDupe" />
+  </acw-types>
+</api>

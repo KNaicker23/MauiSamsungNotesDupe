@@ -6,5 +6,19 @@
         {
             InitializeComponent();
         }
+
+       
+
+        private void ManageFoldersButton_Clicked(object sender, EventArgs e)
+        {
+            
+        }
+
+       
+
+        private void SettingsButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
