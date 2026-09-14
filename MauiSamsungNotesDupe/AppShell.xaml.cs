@@ -20,5 +20,12 @@
         {
 
         }
+
+        void RegisterRoutes()
+        { 
+            Routing.RegisterRoute("recyclebinpage",typeof(RecycleBinPage));
+
+
+        }
     }
 }

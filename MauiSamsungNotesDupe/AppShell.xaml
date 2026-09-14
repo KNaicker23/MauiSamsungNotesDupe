@@ -27,7 +27,7 @@
     </FlyoutItem>
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="Recycle bin" Icon="delete.png" ContentTemplate="{DataTemplate local:NotesPage}" />
+        <ShellContent Title="Recycle bin" Icon="delete.png" ContentTemplate="{DataTemplate local:RecycleBinPage}" />
     </FlyoutItem>
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
