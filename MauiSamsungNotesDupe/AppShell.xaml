@@ -13,24 +13,25 @@
         </Grid>
     </Shell.FlyoutHeader>
 
-    <FlyoutItem Title="All notes" Icon="book.png">
-        <ShellContent ContentTemplate="{DataTemplate local:NotesPage}" />
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="All notes" Icon="book.png"
+        ContentTemplate="{DataTemplate local:NotesPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Locked notes" Icon="lock.png">
-        <ShellContent ContentTemplate="{DataTemplate local:NotesPage}" />
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Locked notes" Icon="lock.png" ContentTemplate="{DataTemplate local:NotesPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Shared notes" Icon="shared_folder.png">
-        <ShellContent ContentTemplate="{DataTemplate local:NotesPage}" />
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Shared notes" Icon="shared_folder.png" ContentTemplate="{DataTemplate local:NotesPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Recycle bin" Icon="delete.png">
-        <ShellContent ContentTemplate="{DataTemplate local:NotesPage}" />
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Recycle bin" Icon="delete.png" ContentTemplate="{DataTemplate local:NotesPage}" />
     </FlyoutItem>
 
-    <FlyoutItem Title="Folders" Icon="folders.png">
-        <ShellContent ContentTemplate="{DataTemplate local:NotesPage}" />
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Folders" Icon="folders.png" ContentTemplate="{DataTemplate local:NotesPage}" />
     </FlyoutItem>
 
     <Shell.FlyoutFooter>

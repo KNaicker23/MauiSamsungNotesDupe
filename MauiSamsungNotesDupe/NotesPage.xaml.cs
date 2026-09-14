@@ -71,8 +71,6 @@ public partial class NotesPage : ContentPage
 
     }
 
-   
-
     private void SearchButtonClicked_Clicked(object sender, EventArgs e)
     {
 
