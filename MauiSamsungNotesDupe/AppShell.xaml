@@ -19,7 +19,7 @@
     </FlyoutItem>
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="Locked notes" Icon="lock.png" ContentTemplate="{DataTemplate local:NotesPage}" />
+        <ShellContent Title="Locked notes" Icon="lock.png" ContentTemplate="{DataTemplate local:LockedNotePage}" />
     </FlyoutItem>
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">

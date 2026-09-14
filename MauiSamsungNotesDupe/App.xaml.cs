@@ -1,17 +1,16 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace MauiSamsungNotesDupe
-{
-    public partial class App : Application
-    {
-        public App()
-        {
-            InitializeComponent();
-        }
+namespace MauiSamsungNotesDupe;
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new NotesPage());
-        }
+public partial class App : Application
+{
+    public App()
+    {
+        InitializeComponent();
+    }
+
+    protected override Window CreateWindow(IActivationState? activationState)
+    {
+        return new Window(new AppShell());
     }
 }
