@@ -10,21 +10,21 @@
         <ToolbarItem IconImageSource="more.png" Order="Secondary"/>
     </ContentPage.ToolbarItems>
 
-    <Grid RowDefinitions="Auto,*" Padding="10">
-        <StackLayout Grid.Row="0" Padding="10">
+    <Grid RowDefinitions="Auto,*" Padding="10"  >
+        <StackLayout Grid.Row="0" Padding="10" >
             <Label Text="All notes" HorizontalTextAlignment="Center" FontSize="32" FontAttributes="Bold" TextColor="Black"/>
-            <Label Text="5 notes" HorizontalTextAlignment="Center" FontSize="14" TextColor="grey"/>
+            <Label Text="9 notes" HorizontalTextAlignment="Center" FontSize="14" TextColor="grey"/>
         </StackLayout>
 
         
         <CollectionView x:Name="NotesCollectionView" Grid.Row="1" SelectionMode="Single">
             <CollectionView.ItemsLayout>
-                <GridItemsLayout Orientation="Vertical" Span="2" HorizontalItemSpacing="10" VerticalItemSpacing="10"/>
+                <GridItemsLayout Orientation="Vertical" Span="2" HorizontalItemSpacing="10" VerticalItemSpacing="20"/>
             </CollectionView.ItemsLayout>
 
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <!-- close Frame start tag -->
+                    
                     <Border Padding="15" BackgroundColor="WhiteSmoke"  Margin="5">
                         <StackLayout Spacing="8">
                             <Label Text="{Binding Title}" FontSize="18" FontAttributes="Bold" TextColor="Black"/>
@@ -36,7 +36,7 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
 
-        <Button x:Name="FabButton" Grid.Row="1" ImageSource="new_note.png" FontSize="28" Clicked="NewNoteButton_Clicked" BackgroundColor="White" TextColor="#d32f2f"
+        <Button x:Name="FabButton" Grid.Row="1" ImageSource="new_note.png"  BorderColor="#d32f2f" FontSize="28" Clicked="NewNoteButton_Clicked" BackgroundColor="White" TextColor="#d32f2f"
                 CornerRadius="30" HeightRequest="60" WidthRequest="60" Padding="0" HorizontalOptions="End" VerticalOptions="End" />
     </Grid>
 </ContentPage>

@@ -9,12 +9,12 @@
     <Shell.FlyoutHeader>
         <Grid ColumnDefinitions="*,Auto" Padding="20,40,20,20" BackgroundColor="White">
             <Label Grid.Column="0" Text="Samsung Notes" FontSize="24" FontAttributes="Bold" TextColor="Black" VerticalOptions="Center"/>
-            <Button Grid.Column="1" ImageSource="settings.png" Clicked="SettingsButton_Clicked"/>
+            <Button Grid.Column="1" ImageSource="settings.png" Clicked="SettingsButton_Clicked" BackgroundColor="White"/>
         </Grid>
     </Shell.FlyoutHeader>
-
+    
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="All notes" Icon="book.png"
+        <ShellContent Title="All notes" Icon="book.png" 
         ContentTemplate="{DataTemplate local:NotesPage}" />
     </FlyoutItem>
 
@@ -23,7 +23,7 @@
     </FlyoutItem>
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="Shared notes" Icon="shared_folder.png" ContentTemplate="{DataTemplate local:NotesPage}" />
+        <ShellContent Title="Shared notes" Icon="shared_folder.png" ContentTemplate="{DataTemplate local:SharedNotePage}" />
     </FlyoutItem>
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">

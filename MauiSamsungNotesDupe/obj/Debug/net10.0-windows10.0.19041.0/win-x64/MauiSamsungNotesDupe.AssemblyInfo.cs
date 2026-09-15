@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauiSamsungNotesDupe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fa3e41ba0da97dc33280c9285768ede9f9a555e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fae8b68f9348360e9b6c11be0faff0fbfbe06830")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauiSamsungNotesDupe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauiSamsungNotesDupe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

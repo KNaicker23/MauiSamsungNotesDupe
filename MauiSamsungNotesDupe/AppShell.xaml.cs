@@ -24,6 +24,8 @@
         void RegisterRoutes()
         { 
             Routing.RegisterRoute("recyclebinpage",typeof(RecycleBinPage));
+            Routing.RegisterRoute("sharednotepage", typeof(SharedNotePage));
+            Routing.RegisterRoute("lockednotepage", typeof(LockedNotePage));
 
 
         }

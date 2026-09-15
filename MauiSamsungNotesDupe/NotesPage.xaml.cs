@@ -43,6 +43,35 @@ public partial class NotesPage : ContentPage
 				Title = "Timetable",
 				Content = "Technical drawings tutorial at 14h00",
 				Date = "2 months ago"
+			},
+			new()
+			{ 
+				Title = "Meter number",
+				Content = "903847300283",
+				Date = "1 week ago"
+			
+			},
+			new()
+			{ 
+				Title = "Shah Rukh Khan movies",
+				Content = "Om Shanti Om , Jawan, Kal ho na Ho, Khabi khushi kabhi gham",
+				Date = "A day ago"
+				
+			},
+			new()
+			{ 
+				Title = "Burfee recipe",
+				Content = "2 cups water, rose water, milk powder, sugar,elaichi powder",
+				Date = "19 Nov 2025"
+			
+			
+			},
+			new()
+			{ 
+				Title = "Discrete math",
+				Content = "Go over partitions and Kruskal's Theorem",
+				Date = "30 Nov 2025"
+			
 			}
 		};
 
